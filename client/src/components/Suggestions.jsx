@@ -8,7 +8,7 @@ function Suggestions() {
   useEffect(() => {
     fetch("https://instagramclone-w54j.onrender.com/api/profile")
       .then((data) => data.json())
-      .then((data) => setProfiles(data[0])) // Select the first profile from the array
+      .then((data) => setProfiles(data[0]))  
       .catch((err) => console.log(err));
 
     fetch("https://instagramclone-w54j.onrender.com/api/suggestions")

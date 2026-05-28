@@ -6,7 +6,7 @@ function Userhighlights() {
   useEffect(() => {
     fetch("https://instagramclone-w54j.onrender.com/api/profile")
       .then((data) => data.json())
-      .then((data) => setProfile(data))
+      .then((data) => setProfile(data[0])) // FIX: Extract the first object from the array
       .catch((err) => console.log(err));
   }, []);
 

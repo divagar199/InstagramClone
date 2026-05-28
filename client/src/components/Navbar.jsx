@@ -10,7 +10,7 @@ function Navbar() {
   useEffect(() => {
     fetch("https://instagramclone-w54j.onrender.com/api/profile")
       .then((data) => data.json())
-      .then((data) => setProfiles(data))
+      .then((data) => setProfiles(data[0])) // FIX: Extract the first object from the array
       .catch((err) => console.log(err));
   }, []);
 

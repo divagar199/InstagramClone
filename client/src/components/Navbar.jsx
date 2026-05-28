@@ -5,10 +5,10 @@ import { use, useState } from "react";
 import { useEffect } from "react";
 
 function Navbar() {
-  navigation = useNavigate();
+  const navigation = useNavigate();
   const [profiles, setProfiles] = useState("");
   useEffect(() => {
-    fetch("http://localhost:3000/profile")
+    fetch("https://instagramclone-w54j.onrender.com/api/profile")
       .then((data) => data.json())
       .then((data) => setProfiles(data))
       .catch((err) => console.log(err));

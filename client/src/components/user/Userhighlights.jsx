@@ -4,7 +4,7 @@ function Userhighlights() {
   const [profile, setProfile] = useState(null);
 
   useEffect(() => {
-    fetch("http://localhost:3000/profile")
+    fetch("https://instagramclone-w54j.onrender.com/api/profile")
       .then((data) => data.json())
       .then((data) => setProfile(data))
       .catch((err) => console.log(err));

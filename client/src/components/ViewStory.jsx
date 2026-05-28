@@ -15,7 +15,7 @@ function ViewStory() {
       return;
     }
 
-    fetch(`http://localhost:3000/Story/${id}`)
+    fetch(`https://instagramclone-w54j.onrender.com/api/stories/${id}`)
       .then((data) => data.json())
       .then((data) => setVstory(data))
       .catch((err) => console.log(err));

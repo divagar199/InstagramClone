@@ -8,7 +8,7 @@ function Profile() {
   const [profile, setProfile] = useState(null);
   useEffect(() => {
     axios
-      .get("http://localhost:3000/api/profile")
+      .get("https://instagramclone-w54j.onrender.com/api/profile")
       .then((res) => {
         // The server returns an array of profiles. Assuming we want the first one.
         setProfile(res.data[0]);

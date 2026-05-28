@@ -6,7 +6,7 @@ function Posts() {
   const [posts, setPosts] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3000/api/posts")
+    fetch("https://instagramclone-w54j.onrender.com/api/posts")
       .then((data) => data.json())
       .then((data) => setPosts(data))
       .catch((err) => console.log(err));

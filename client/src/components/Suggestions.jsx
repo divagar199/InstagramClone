@@ -6,12 +6,12 @@ function Suggestions() {
   const [suggest, setSuggest] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3000/api/profile")
+    fetch("https://instagramclone-w54j.onrender.com/api/profile")
       .then((data) => data.json())
       .then((data) => setProfiles(data[0])) // Select the first profile from the array
       .catch((err) => console.log(err));
 
-    fetch("http://localhost:3000/api/suggestions")
+    fetch("https://instagramclone-w54j.onrender.com/api/suggestions")
       .then((data) => data.json())
       .then((data) => setSuggest(data))
       .catch((err) => console.log(err));

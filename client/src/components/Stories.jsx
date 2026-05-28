@@ -11,17 +11,16 @@ function Stories() {
       .then((data) => setStories(data))
       .catch((err) => console.log(err));
   }, []);
-
   const nxt = stories.length;
 
   return (
     <>
       <div
         className="flex   h-30 gap-5 items-center overflow-x-scroll
-        [&::-webkit-scrollbar]:h-[3px]
+        [&::-webkit-scrollbar]:h-0.75
       [&::-webkit-scrollbar-thumb]:bg-gray-400
       [&::-webkit-scrollbar-track]:bg-gray-200 story_adj"
-      > 
+      >
         {stories.length > 0 ? (
           stories.map((story) => (
             <div

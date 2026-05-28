@@ -10,13 +10,11 @@ function Profile() {
     axios
       .get("https://instagramclone-w54j.onrender.com/api/profile")
       .then((res) => {
-        // The server returns an array of profiles. Assuming we want the first one.
         setProfile(res.data[0]);
       })
       .catch((err) => console.log(err));
   }, []);
 
-  //   text-center tracking-widest list-image-[url('https://img.icons8.com/?size=100&id=14095&format=png&color=000000')]
   return (
     <>
       {profile ? (

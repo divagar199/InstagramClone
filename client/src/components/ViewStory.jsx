@@ -15,10 +15,27 @@ function ViewStory() {
       return;
     }
 
-    fetch(`https://instagramclone-w54j.onrender.com/api/stories/${id}`)
-      .then((data) => data.json())
-      .then((data) => setVstory(data))
-      .catch((err) => console.log(err));
+    fetch("https://instagramclone-w54j.onrender.com/api/stories")
+      .then(async (response) => {
+        if (!response.ok) {
+          throw new Error(`Story list request failed: ${response.status}`);
+        }
+
+        const data = await response.json();
+        const selectedStory = data.find(
+          (story) => String(story.id) === String(id)
+        );
+
+        if (!selectedStory) {
+          throw new Error("Story not found");
+        }
+
+        setVstory(selectedStory);
+      })
+      .catch((err) => {
+        console.error(err);
+        navigate("/");
+      });
   }, [id, navigate]);
 
   const renderMedia = () => {

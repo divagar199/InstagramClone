@@ -1,0 +1,660 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "username": "code_ninja",
+      "userProfilePic": "https://randomuser.me/api/portraits/men/1.jpg",
+      "imageUrl": "https://picsum.photos/seed/post1/600/600",
+      "caption": "Just squashed the last bug in my MERN stack project. Express and MongoDB are a match made in heaven! 🚀 #WebDev #MERN #CodingLife",
+      "location": "Chennai, India",
+      "likes": 342,
+      "comments": 28,
+      "shares": 45,
+      "reposts": 12,
+      "timestamp": "2026-04-15T08:30:00Z"
+    },
+    {
+      "id": "2",
+      "username": "yellove_army",
+      "userProfilePic": "https://randomuser.me/api/portraits/men/2.jpg",
+      "imageUrl": "https://picsum.photos/seed/post2/600/600",
+      "caption": "Match day vibes! Ready for another masterclass on the pitch. Whistle Podu! 🦁💛 #CSK #CricketFever",
+      "location": "Chepauk Stadium",
+      "likes": 1250,
+      "comments": 89,
+      "shares": 310,
+      "reposts": 85,
+      "timestamp": "2026-04-14T15:45:00Z"
+    },
+    {
+      "id": "3",
+      "username": "vintage_cruiser",
+      "userProfilePic": "https://randomuser.me/api/portraits/men/3.jpg",
+      "imageUrl": "https://picsum.photos/seed/post3/600/600",
+      "caption": "Spotted this absolute classic today. They just don't build them like this anymore. Look at those lines! 🏎️💨 #RetroWheels #ClassicCars",
+      "location": "Marina Beach",
+      "likes": 567,
+      "comments": 14,
+      "shares": 120,
+      "reposts": 34,
+      "timestamp": "2026-04-13T10:12:00Z"
+    },
+    {
+      "id": "4",
+      "username": "style_files",
+      "userProfilePic": "https://randomuser.me/api/portraits/women/1.jpg",
+      "imageUrl": "https://picsum.photos/seed/post4/600/600",
+      "caption": "Dropping the new summer collection tomorrow. Wait until you feel the texture on this royal blue mars fabric. ✨ #FashionTech #OOTD #NostraVibes",
+      "location": "Tiruppur, Tamil Nadu",
+      "likes": 890,
+      "comments": 45,
+      "shares": 215,
+      "reposts": 67,
+      "timestamp": "2026-04-12T18:20:00Z"
+    },
+    {
+      "id": "5",
+      "username": "lit_reads",
+      "userProfilePic": "https://randomuser.me/api/portraits/women/2.jpg",
+      "imageUrl": "https://picsum.photos/seed/post5/600/600",
+      "caption": "Adding a massive new collection of Tamil e-books to the marketplace this weekend. Can't wait for you all to explore the new titles! 📚 #Ebooks #ReadingCommunity",
+      "location": "Coimbatore",
+      "likes": 432,
+      "comments": 31,
+      "shares": 98,
+      "reposts": 21,
+      "timestamp": "2026-04-11T09:05:00Z"
+    },
+    {
+      "id": "6",
+      "username": "tech_setup",
+      "userProfilePic": "https://randomuser.me/api/portraits/men/4.jpg",
+      "imageUrl": "https://picsum.photos/seed/post6/600/600",
+      "caption": "Late night coding sessions hit different when the setup is clean. Firing up the Lenovo Yoga and getting to work on the new UI. 💻☕ #DeskSetup #DevCommunity",
+      "location": "Home Office",
+      "likes": 756,
+      "comments": 52,
+      "shares": 154,
+      "reposts": 43,
+      "timestamp": "2026-04-10T23:30:00Z"
+    },
+    {
+      "id": "7",
+      "username": "stream_junkie",
+      "userProfilePic": "https://randomuser.me/api/portraits/women/3.jpg",
+      "imageUrl": "https://picsum.photos/seed/post7/600/600",
+      "caption": "Just integrated the new TMDB API into the frontend. The infinite scroll for movie posters is looking slick! 🍿🎬 #Frontend #ReactJS",
+      "location": "Bangalore",
+      "likes": 298,
+      "comments": 18,
+      "shares": 67,
+      "reposts": 11,
+      "timestamp": "2026-04-09T14:15:00Z"
+    },
+    {
+      "id": "8",
+      "username": "wanderlust_diaries",
+      "userProfilePic": "https://randomuser.me/api/portraits/women/4.jpg",
+      "imageUrl": "https://picsum.photos/seed/post8/600/600",
+      "caption": "Chasing sunsets and good vibes. The lighting here was completely unreal. 🌅 #TravelPhotography #Wanderlust",
+      "location": "Ooty",
+      "likes": 1102,
+      "comments": 76,
+      "shares": 420,
+      "reposts": 112,
+      "timestamp": "2026-04-08T17:50:00Z"
+    },
+    {
+      "id": "9",
+      "username": "foodie_gram",
+      "userProfilePic": "https://randomuser.me/api/portraits/men/5.jpg",
+      "imageUrl": "https://picsum.photos/seed/post9/600/600",
+      "caption": "Nothing beats a perfectly crispy dosa for Sunday breakfast. Filter coffee is mandatory. ☕🍽️ #SouthIndianFood #FoodBlogger",
+      "location": "Madurai",
+      "likes": 845,
+      "comments": 64,
+      "shares": 189,
+      "reposts": 56,
+      "timestamp": "2026-04-07T08:00:00Z"
+    },
+    {
+      "id": "10",
+      "username": "career_hacks",
+      "userProfilePic": "https://randomuser.me/api/portraits/women/5.jpg",
+      "imageUrl": "https://picsum.photos/seed/post10/600/600",
+      "caption": "Just hit 10k downloads on the Resume Builder app! Huge milestone. Thank you to everyone who supported the launch! 📈💼 #AppDev #Milestone",
+      "location": "Chennai",
+      "likes": 1540,
+      "comments": 112,
+      "shares": 530,
+      "reposts": 145,
+      "timestamp": "2026-04-06T11:20:00Z"
+    },
+    {
+      "id": "11",
+      "username": "retail_insider",
+      "userProfilePic": "https://randomuser.me/api/portraits/women/6.jpg",
+      "imageUrl": "https://picsum.photos/seed/post11/600/600",
+      "caption": "Visual merchandising is an art. Loving the new spring layout on the floor today. 🛍️👗 #RetailLife #VisualMerchandising",
+      "location": "Phoenix Marketcity",
+      "likes": 412,
+      "comments": 22,
+      "shares": 88,
+      "reposts": 19,
+      "timestamp": "2026-04-05T13:40:00Z"
+    },
+    {
+      "id": "12",
+      "username": "api_architect",
+      "userProfilePic": "https://randomuser.me/api/portraits/men/6.jpg",
+      "imageUrl": "https://picsum.photos/seed/post12/600/600",
+      "caption": "Successfully integrated Razorpay into the checkout flow. Testing webhooks is a pain, but seeing that 'Payment Successful' screen is totally worth it. 💳💻 #BackendDev #NodeJS",
+      "location": "Tiruppur",
+      "likes": 678,
+      "comments": 45,
+      "shares": 145,
+      "reposts": 38,
+      "timestamp": "2026-04-04T16:10:00Z"
+    },
+    {
+      "id": "13",
+      "username": "daily_motivation",
+      "userProfilePic": "https://randomuser.me/api/portraits/men/7.jpg",
+      "imageUrl": "https://picsum.photos/seed/post13/600/600",
+      "caption": "Consistency is what transforms average into excellence. Keep pushing your limits! 💪🔥 #Motivation #Hustle",
+      "location": "India",
+      "likes": 985,
+      "comments": 33,
+      "shares": 276,
+      "reposts": 89,
+      "timestamp": "2026-04-03T07:00:00Z"
+    },
+    {
+      "id": "14",
+      "username": "css_wizard",
+      "userProfilePic": "https://randomuser.me/api/portraits/women/7.jpg",
+      "imageUrl": "https://picsum.photos/seed/post14/600/600",
+      "caption": "Tailwind CSS has completely changed how I build layouts. Built this entire horizontal scroll section in 10 minutes! 🎨✨ #WebDesign #CSS",
+      "location": "Mannarai",
+      "likes": 890,
+      "comments": 56,
+      "shares": 198,
+      "reposts": 52,
+      "timestamp": "2026-04-02T14:30:00Z"
+    },
+    {
+      "id": "15",
+      "username": "pet_lover99",
+      "userProfilePic": "https://randomuser.me/api/portraits/men/8.jpg",
+      "imageUrl": "https://picsum.photos/seed/post15/600/600",
+      "caption": "Look at this distinguished gentleman. The best debugging partner a programmer could ask for. 🐶🐾 #DogsofInstagram #Pets",
+      "location": "Home",
+      "likes": 1450,
+      "comments": 88,
+      "shares": 412,
+      "reposts": 134,
+      "timestamp": "2026-04-01T19:20:00Z"
+    },
+    {
+      "id": "16",
+      "username": "cloud_native",
+      "userProfilePic": "https://randomuser.me/api/portraits/women/8.jpg",
+      "imageUrl": "https://picsum.photos/seed/post16/600/600",
+      "caption": "Deploying the backend to Render and the frontend to Vercel today. CI/CD pipelines make life so much easier. ☁️🚀 #Deployment #DevOps",
+      "location": "Cloud",
+      "likes": 534,
+      "comments": 27,
+      "shares": 112,
+      "reposts": 28,
+      "timestamp": "2026-03-31T10:45:00Z"
+    },
+    {
+      "id": "17",
+      "username": "fitness_freak",
+      "userProfilePic": "https://randomuser.me/api/portraits/men/9.jpg",
+      "imageUrl": "https://picsum.photos/seed/post17/600/600",
+      "caption": "Early morning run to clear the mind before a long day of screen time. Endorphins > Caffeine. 🏃‍♂️💨 #FitnessJourney #MorningRun",
+      "location": "Race Course",
+      "likes": 721,
+      "comments": 19,
+      "shares": 167,
+      "reposts": 45,
+      "timestamp": "2026-03-30T06:30:00Z"
+    },
+    {
+      "id": "18",
+      "username": "ai_artist",
+      "userProfilePic": "https://randomuser.me/api/portraits/women/9.jpg",
+      "imageUrl": "https://picsum.photos/seed/post18/600/600",
+      "caption": "Experimenting with some generative AI prompts for new channel banners. The 8k upscaling is getting scarily good. 🤖🖌️ #GenerativeAI #DigitalArt",
+      "location": "Studio",
+      "likes": 612,
+      "comments": 41,
+      "shares": 134,
+      "reposts": 31,
+      "timestamp": "2026-03-29T20:15:00Z"
+    },
+    {
+      "id": "19",
+      "username": "weekend_baker",
+      "userProfilePic": "https://randomuser.me/api/portraits/women/10.jpg",
+      "imageUrl": "https://picsum.photos/seed/post19/600/600",
+      "caption": "Tried my hand at baking chocolate chip cookies from scratch today. They actually turned out perfectly chewy! 🍪👨‍🍳 #Baking #WeekendVibes",
+      "location": "Kitchen",
+      "likes": 889,
+      "comments": 54,
+      "shares": 201,
+      "reposts": 63,
+      "timestamp": "2026-03-28T16:00:00Z"
+    },
+    {
+      "id": "20",
+      "username": "yt_creator",
+      "userProfilePic": "https://randomuser.me/api/portraits/men/10.jpg",
+      "imageUrl": "https://picsum.photos/seed/post20/600/600",
+      "caption": "New tutorial dropping tonight! We're building a full-stack e-commerce app from scratch. Link in bio. 🎥🔥 #WebDevelopment #ProgrammingTutorial",
+      "location": "Recording Studio",
+      "likes": 1340,
+      "comments": 95,
+      "shares": 389,
+      "reposts": 105,
+      "timestamp": "2026-03-27T18:30:00Z"
+    }
+  ],
+  "profile": 
+    {
+      "id": "1",
+      "username": "code_ninja",
+      "fullName": "Arjun Kumar",
+      "bio": "MERN stack developer | Tech enthusiast | Coffee lover ☕ | Sharing my coding journey and projects. #WebDev #CodingLife",
+      "profilePic": "https://randomuser.me/api/portraits/men/1.jpg",
+      "followers": 1200,
+      "following": 300,
+      "posts": 12,
+      "location": "Chennai, India",
+      "website": "https://code-ninja.com",
+      "email": "arjun.kumar@example.com",
+      "highlights": [
+        {
+          "id": "h1",
+          "title": "Setup 🖥️",
+          "coverImage": "https://picsum.photos/seed/high1/150/150"
+        },
+        {
+          "id": "h2",
+          "title": "Travel ✈️",
+          "coverImage": "https://picsum.photos/seed/high2/150/150"
+        },
+        {
+          "id": "h3",
+          "title": "Projects 🚀",
+          "coverImage": "https://picsum.photos/seed/high3/150/150"
+        },
+        {
+          "id": "h4",
+          "title": "Food 🍕",
+          "coverImage": "https://picsum.photos/seed/high4/150/150"
+        },
+        {
+          "id": "h5",
+          "title": "Q&A 💬",
+          "coverImage": "https://picsum.photos/seed/high5/150/150"
+        },
+        {
+          "id": "h6",
+          "title": "Projects 🚀",
+          "coverImage": "https://picsum.photos/seed/high3/150/150"
+        },
+        {
+          "id": "h7",
+          "title": "Food 🍕",
+          "coverImage": "https://picsum.photos/seed/high4/150/150"
+        },
+        {
+          "id": "h8",
+          "title": "Q&A 💬",
+          "coverImage": "https://picsum.photos/seed/high5/150/150"
+        }
+      ],
+      "userposts": [
+        {
+          "id": "p1",
+          "mediaType": "image",
+          "imageUrl": "https://picsum.photos/seed/post1/600/600",
+          "caption": "Just squashed the last bug in my MERN stack project. Express and MongoDB are a match made in heaven! 🚀 #WebDev #MERN #CodingLife",
+          "likes": 342,
+          "comments": 28,
+          "timestamp": "2026-05-10T08:30:00Z"
+        },
+        {
+          "id": "p2",
+          "mediaType": "video",
+          "imageUrl": "https://picsum.photos/seed/post2/600/600",
+          "videoUrl": "https://res.cloudinary.com/demo/video/upload/c_fill,h_600,w_600/dog.mp4",
+          "caption": "My coding buddy keeping me company during late-night debugging sessions. 🐶💻",
+          "likes": 892,
+          "comments": 45,
+          "timestamp": "2026-05-08T14:15:00Z"
+        },
+        {
+          "id": "p3",
+          "mediaType": "carousel",
+          "imageUrl": "https://picsum.photos/seed/post3/600/600",
+          "caption": "Swipe left to see the UI transformation! From wireframe to final product. 🎨✨ #UIUX #Design",
+          "likes": 512,
+          "comments": 19,
+          "timestamp": "2026-05-05T09:20:00Z"
+        },
+        {
+          "id": "p4",
+          "mediaType": "image",
+          "imageUrl": "https://picsum.photos/seed/post4/600/600",
+          "caption": "Coffee + Code. The only formula you need. ☕💻",
+          "likes": 745,
+          "comments": 33,
+          "timestamp": "2026-05-01T11:00:00Z"
+        },
+        {
+          "id": "p5",
+          "mediaType": "image",
+          "imageUrl": "https://picsum.photos/seed/post5/600/600",
+          "caption": "Attended an amazing tech meetup in Chennai today. Networking with fellow devs always gives me new perspectives. 🤝🔥",
+          "likes": 420,
+          "comments": 12,
+          "timestamp": "2026-04-28T16:45:00Z"
+        },
+        {
+          "id": "p6",
+          "mediaType": "video",
+          "imageUrl": "https://picsum.photos/seed/post6/600/600",
+          "videoUrl": "https://res.cloudinary.com/demo/video/upload/c_fill,h_600,w_600/elephants.mp4",
+          "caption": "Weekend getaway to recharge. Nature is the best reset button. 🌿⛰️",
+          "likes": 1105,
+          "comments": 88,
+          "timestamp": "2026-04-20T07:10:00Z"
+        },
+        {
+          "id": "p7",
+          "mediaType": "image",
+          "imageUrl": "https://picsum.photos/seed/post7/600/600",
+          "caption": "Finally upgraded my workspace! The new dual monitor setup is a game changer for productivity. 🖥️⚡",
+          "likes": 950,
+          "comments": 64,
+          "timestamp": "2026-04-15T18:30:00Z"
+        },
+        {
+          "id": "p8",
+          "mediaType": "image",
+          "imageUrl": "https://picsum.photos/seed/post8/600/600",
+          "caption": "Learning Rust this weekend. Memory safety features are mind-blowing but the learning curve is real! 🦀🧠 #RustLang",
+          "likes": 310,
+          "comments": 41,
+          "timestamp": "2026-04-10T10:00:00Z"
+        },
+        {
+          "id": "p9",
+          "mediaType": "carousel",
+          "imageUrl": "https://picsum.photos/seed/post9/600/600",
+          "caption": "My top 5 VS Code extensions that I can't live without. Swipe to check them out! 👉",
+          "likes": 1240,
+          "comments": 115,
+          "timestamp": "2026-04-05T13:20:00Z"
+        },
+        {
+          "id": "p10",
+          "mediaType": "image",
+          "imageUrl": "https://picsum.photos/seed/post10/600/600",
+          "caption": "Deploying on a Friday... wish me luck! 🤞😅 #DevOps",
+          "likes": 880,
+          "comments": 92,
+          "timestamp": "2026-03-27T15:00:00Z"
+        },
+        {
+          "id": "p11",
+          "mediaType": "image",
+          "imageUrl": "https://picsum.photos/seed/post11/600/600",
+          "caption": "Nothing beats Marina beach at sunset. 🌅",
+          "likes": 670,
+          "comments": 21,
+          "timestamp": "2026-03-20T17:45:00Z"
+        },
+        {
+          "id": "p12",
+          "mediaType": "video",
+          "imageUrl": "https://picsum.photos/seed/post12/600/600",
+          "videoUrl": "https://res.cloudinary.com/demo/video/upload/c_fill,h_600,w_600/rooster.mp4",
+          "caption": "Early morning hustle. Let's get this bread! 🌅💻",
+          "likes": 540,
+          "comments": 18,
+          "timestamp": "2026-03-15T06:30:00Z"
+        }
+      ]
+    }
+  ,
+  "suggestions": [
+    {
+      "id": "1",
+      "username": "tech_guru",
+      "fullName": "Priya Sharma",
+      "profilePic": "https://randomuser.me/api/portraits/women/1.jpg",
+      "mutualFollowers": 50
+    },
+    {
+      "id": "2",
+      "username": "travel_blogger",
+      "fullName": "Rahul Verma",
+      "profilePic": "https://randomuser.me/api/portraits/men/2.jpg",
+      "mutualFollowers": 80
+    },
+    {
+      "id": "3",
+      "username": "foodie_explorer",
+      "fullName": "Ananya Singh",
+      "profilePic": "https://randomuser.me/api/portraits/women/3.jpg",
+      "mutualFollowers": 60
+    },
+    {
+      "id": "4",
+      "username": "fitness_guru",
+      "fullName": "Vikram Patel",
+      "profilePic": "https://randomuser.me/api/portraits/men/4.jpg",
+      "mutualFollowers": 40
+    },
+    {
+      "id": "5",
+      "username": "art_enthusiast",
+      "fullName": "Sneha Reddy",
+      "profilePic": "https://randomuser.me/api/portraits/women/5.jpg",
+      "mutualFollowers": 70
+    },
+    {
+      "id": "6",
+      "username": "music_lover",
+      "fullName": "Aravind Kumar",
+      "profilePic": "https://randomuser.me/api/portraits/men/6.jpg",
+      "mutualFollowers": 90
+    }
+  ],
+  "Story": [
+    {
+      "id": "1",
+      "username": "code_ninja",
+      "userProfilePic": "https://randomuser.me/api/portraits/men/1.jpg",
+      "mediaType": "image",
+      "mediaUrl": "https://picsum.photos/seed/story1/1080/1920",
+      "duration": 5,
+      "caption": "Morning coffee & debugging ☕💻",
+      "timestamp": "2026-04-30T08:15:00Z",
+      "views": 450,
+      "likes": 32
+    },
+    {
+      "id": "2",
+      "username": "yellove_army",
+      "userProfilePic": "https://randomuser.me/api/portraits/men/2.jpg",
+      "mediaType": "video",
+      "mediaUrl": "https://res.cloudinary.com/demo/video/upload/c_fill,h_1920,w_1080/dog.mp4",
+      "duration": 15,
+      "caption": "Net practice sessions! 🔥🦁",
+      "timestamp": "2026-04-30T10:30:00Z",
+      "views": 1250,
+      "likes": 189
+    },
+    {
+      "id": "3",
+      "username": "style_files",
+      "userProfilePic": "https://randomuser.me/api/portraits/women/1.jpg",
+      "mediaType": "image",
+      "mediaUrl": "https://picsum.photos/seed/story2/1080/1920",
+      "duration": 5,
+      "caption": "Sneak peek of tomorrow's drop 👀✨",
+      "timestamp": "2026-04-30T11:45:00Z",
+      "views": 890,
+      "likes": 76
+    },
+    {
+      "id": "4",
+      "username": "tech_setup",
+      "userProfilePic": "https://randomuser.me/api/portraits/men/4.jpg",
+      "mediaType": "video",
+      "mediaUrl": "https://cdn.pixabay.com/video/2025/04/21/273298_large.mp4",
+      "duration": 10,
+      "caption": "Unboxing the new mechanical keyboard ⌨️",
+      "timestamp": "2026-04-30T09:20:00Z",
+      "views": 620,
+      "likes": 45
+    },
+    {
+      "id": "5",
+      "username": "wanderlust_diaries",
+      "userProfilePic": "https://randomuser.me/api/portraits/women/4.jpg",
+      "mediaType": "image",
+      "mediaUrl": "https://picsum.photos/seed/story3/1080/1920",
+      "duration": 5,
+      "caption": "Current view ⛰️☁️",
+      "timestamp": "2026-04-30T07:10:00Z",
+      "views": 1105,
+      "likes": 210
+    },
+    {
+      "id": "6",
+      "username": "foodie_gram",
+      "userProfilePic": "https://randomuser.me/api/portraits/men/5.jpg",
+      "mediaType": "video",
+      "mediaUrl": "https://cdn.pixabay.com/video/2023/07/12/171272-845168271_large.mp4",
+      "duration": 15,
+      "caption": "That sizzle though... 🍳🤤",
+      "timestamp": "2026-04-30T12:05:00Z",
+      "views": 980,
+      "likes": 142
+    },
+    {
+      "id": "7",
+      "username": "retail_insider",
+      "userProfilePic": "https://randomuser.me/api/portraits/women/6.jpg",
+      "mediaType": "image",
+      "mediaUrl": "https://picsum.photos/seed/story4/1080/1920",
+      "duration": 5,
+      "caption": "Store is looking fresh today! 🛍️",
+      "timestamp": "2026-04-30T09:50:00Z",
+      "views": 340,
+      "likes": 18
+    },
+    {
+      "id": "8",
+      "username": "daily_motivation",
+      "userProfilePic": "https://randomuser.me/api/portraits/men/7.jpg",
+      "mediaType": "image",
+      "mediaUrl": "https://picsum.photos/seed/story5/1080/1920",
+      "duration": 5,
+      "caption": "Reminder: Drink water & keep going! 💧",
+      "timestamp": "2026-04-30T06:00:00Z",
+      "views": 2100,
+      "likes": 430
+    },
+    {
+      "id": "9",
+      "username": "css_wizard",
+      "userProfilePic": "https://randomuser.me/api/portraits/women/7.jpg",
+      "mediaType": "video",
+      "mediaUrl": "https://cdn.pixabay.com/video/2024/05/22/213263_large.mp4",
+      "duration": 12,
+      "caption": "Testing those smooth CSS animations 🎨",
+      "timestamp": "2026-04-30T10:15:00Z",
+      "views": 560,
+      "likes": 88
+    },
+    {
+      "id": "10",
+      "username": "pet_lover99",
+      "userProfilePic": "https://randomuser.me/api/portraits/men/8.jpg",
+      "mediaType": "image",
+      "mediaUrl": "https://picsum.photos/seed/story6/1080/1920",
+      "duration": 5,
+      "caption": "He refused to get out of bed today 🐕💤",
+      "timestamp": "2026-04-30T08:45:00Z",
+      "views": 1450,
+      "likes": 320
+    },
+    {
+      "id": "11",
+      "username": "cloud_native",
+      "userProfilePic": "https://randomuser.me/api/portraits/women/8.jpg",
+      "mediaType": "image",
+      "mediaUrl": "https://picsum.photos/seed/story7/1080/1920",
+      "duration": 5,
+      "caption": "Build passing! ✅ Finally.",
+      "timestamp": "2026-04-29T23:30:00Z",
+      "views": 310,
+      "likes": 12
+    },
+    {
+      "id": "12",
+      "username": "fitness_freak",
+      "userProfilePic": "https://randomuser.me/api/portraits/men/9.jpg",
+      "mediaType": "video",
+      "mediaUrl": "https://cdn.pixabay.com/video/2025/11/18/316819_large.mp4",
+      "duration": 15,
+      "caption": "Leg day finishers... send help 🦵🔥",
+      "timestamp": "2026-04-30T07:45:00Z",
+      "views": 890,
+      "likes": 115
+    },
+    {
+      "id": "13",
+      "username": "ai_artist",
+      "userProfilePic": "https://randomuser.me/api/portraits/women/9.jpg",
+      "mediaType": "image",
+      "mediaUrl": "https://picsum.photos/seed/story8/1080/1920",
+      "duration": 5,
+      "caption": "Which color palette do we like? A or B? 🎨",
+      "timestamp": "2026-04-30T11:10:00Z",
+      "views": 420,
+      "likes": 56
+    },
+    {
+      "id": "14",
+      "username": "weekend_baker",
+      "userProfilePic": "https://randomuser.me/api/portraits/women/10.jpg",
+      "mediaType": "video",
+      "mediaUrl": "https://cdn.pixabay.com/video/2022/10/05/133644-757816799_large.mp4",
+      "duration": 10,
+      "caption": "Proofing the dough 🍞⏳",
+      "timestamp": "2026-04-30T09:05:00Z",
+      "views": 670,
+      "likes": 89
+    },
+    {
+      "id": "15",
+      "username": "yt_creator",
+      "userProfilePic": "https://randomuser.me/api/portraits/men/10.jpg",
+      "mediaType": "image",
+      "mediaUrl": "https://picsum.photos/seed/story9/1080/1920",
+      "duration": 5,
+      "caption": "Editing in progress. Video drops at 6 PM! 🎬",
+      "timestamp": "2026-04-30T12:20:00Z",
+      "views": 1800,
+      "likes": 245
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+b{
+   display: none;
+}
+.icon_show:hover b{
+   display: block;
+   
+}
+.text_bold{
+   font-weight: 700;
+}
+.story_contol{
+   display: flex;
+}
+.story_color{
+   background: linear-gradient(
+        to right top, 
+        #FFC700, #FF0A61, #D300C5
+    );
+}
+
+@media (max-width: 1120px) {
+  .Suggestions_set {
+    display: none;
+  }
+
+  
+}
+@media (max-width:711px){
+   .pc_view_nav{
+      display: none; 
+   }
+   .main_feed{
+      padding: 0;
+   }
+   .story_adj{
+      width: 480px;
+   }
+   .hide_md p{
+      display: none;
+   }
+  
+}
+
+
